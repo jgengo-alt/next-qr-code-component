@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Card() {
 	return (
 		<div className='min-h-96 mx-auto bg-white rounded-2xl p-4 drop-shadow-lg w-80'>
-			<Image src='/image-qr-code.png' width={'100'} height={'100'} layout="responsive" unoptimized={true} className='rounded-xl' alt="qr code" />
+			<Image src='./image-qr-code.png' width={'100'} height={'100'} layout="responsive" unoptimized={true} className='rounded-xl' alt="qr code" />
 
 			<h2 className='text-center text-xl py-6 px-3 font-bold text-c-dark-blue'>
 				Improve your front-end skills by building projects
